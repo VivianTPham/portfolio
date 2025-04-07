@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.d8a1370f.js",
+    "main.css": "/portfolio/static/css/main.b45cbc5d.css",
+    "main.js": "/portfolio/static/js/main.81053e1c.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/ClimateCrisis-Regular-VariableFont_YEAR.ttf": "/portfolio/static/media/ClimateCrisis-Regular-VariableFont_YEAR.72f6288ec1680cdd0ff0.ttf",
+    "static/media/LouisGeorgeCafe-Light.ttf": "/portfolio/static/media/LouisGeorgeCafe-Light.39945fcd312e86adc356.ttf",
+    "static/media/LouisGeorgeCafe.ttf": "/portfolio/static/media/LouisGeorgeCafe.eacd87871e9a39013626.ttf",
     "index.html": "/portfolio/index.html",
-    "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.d8a1370f.js.map": "/portfolio/static/js/main.d8a1370f.js.map",
+    "main.b45cbc5d.css.map": "/portfolio/static/css/main.b45cbc5d.css.map",
+    "main.81053e1c.js.map": "/portfolio/static/js/main.81053e1c.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.d8a1370f.js"
+    "static/css/main.b45cbc5d.css",
+    "static/js/main.81053e1c.js"
   ]
 }
