@@ -1,17 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import WavyMarquee from './components/WavyMarquee/WavyMarquee';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>
-          Testing Vivian's portfolio website
-        </h2>
-      </header>
-    </div>
+    <>
+      <WavyMarquee />
+      <Home />
+    </>
   );
 }
 

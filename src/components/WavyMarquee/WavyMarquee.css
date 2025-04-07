@@ -1,0 +1,32 @@
+.wavy-marquee-container {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background: hsla(49.41, 26.15%, 87.25%);
+    mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        hsla(49.41, 26.15%, 87.25%) 10%,
+        hsla(49.41, 26.15%, 87.25%) 90%,
+        transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        hsla(49.41, 26.15%, 87.25%) 10%,
+        hsla(49.41, 26.15%, 87.25%) 90%,
+        transparent 100%
+    );
+}
+
+svg {
+    user-select: none;
+    height: 250px;
+    overflow: visible;
+}
+
+.Marquee-svg-text {
+    fill: var(--accent-color);
+    font-size: 35px;
+}
+  
