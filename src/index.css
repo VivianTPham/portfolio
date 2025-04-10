@@ -10,6 +10,11 @@
 }
 
 @font-face {
+  font-family: louis-george-cafe-bold;
+  src: url(../public/fonts/LouisGeorgeCafe-Bold.ttf);
+}
+
+@font-face {
   font-family: climate-crisis;
   src: url(../public/fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf);
 }
@@ -105,6 +110,35 @@ h2 {
 
 .grid {
   display: grid;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+  background-color: hsl(49.41, 26.15%, 87.25%);
+  padding: 3rem;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: louis-george-cafe-bold, sans-serif;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
 }
 
 
