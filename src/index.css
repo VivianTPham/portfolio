@@ -102,9 +102,6 @@ h2 {
 
 /*--======================= Reusable CSS Classes =======================*/
 .container {
-  max-width: 1080px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -115,13 +112,14 @@ h2 {
 .logo {
   height: 70px;
   width: auto;
+  filter: brightness(0) saturate(100%) invert(80%) sepia(63%) saturate(576%) hue-rotate(12deg) brightness(95%) contrast(93%);
 }
 
 .nav {
   display: flex;
   gap: 50px;
   background-color: hsl(49.41, 26.15%, 87.25%);
-  padding: 3rem;
+  padding: 5%;
   justify-content: space-between;
 }
 
@@ -139,6 +137,12 @@ h2 {
 .nav-links {
   display: flex;
   gap: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 3% auto;
 }
 
 

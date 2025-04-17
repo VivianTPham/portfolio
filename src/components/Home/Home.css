@@ -3,9 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
     width: 40%;
-    margin: auto;
+    margin: auto auto 5% auto;
     position: relative;
     padding: 2rem;
 }
@@ -59,4 +58,76 @@
     right: 10px;
     transform: rotate(45deg);
     transform-origin: bottom right;
+}
+
+.works-section {
+    background-color: var(--accent-color);
+    padding: 5%;
+}
+
+.works-section h3 {
+    font-size: 35px;
+    font-family: climate-crisis, sans-serif;
+}
+
+.works-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.work-item {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.work-img {
+    width: 100%;
+}
+
+/* Marker styling */
+.marker {
+    position: relative;
+    margin: 0 40px;
+    color: #333;
+    text-decoration: none;
+}
+.marker svg {
+    position: absolute;
+    left: 0;
+    top: -50%;
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    pointer-events: none;   
+}
+.marker path {
+    transition: stroke-dashoffset 300ms linear;
+    stroke-width: 1.0;
+    stroke: darkgreen;
+    fill: none;
+    stroke-linecap: round;
+}
+.marker:hover path{
+    stroke-dashoffset: 0;
+} 
+
+
+@media screen and (max-width: 980px) {
+    .home-container {
+        width: 90%;
+    }
+
+    .intro-content {
+        font-size: 24px;
+    }
+    
+    .works-container {
+        flex-direction: column;
+    }
 }

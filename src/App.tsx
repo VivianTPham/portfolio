@@ -27,6 +27,11 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <footer className="footer">
+        <Link to="/">
+          <img src={logo} alt='Logo' className='logo' />
+        </Link>
+      </footer>
     </>
   );
 }
