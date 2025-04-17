@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d51cf57e.css",
-    "main.js": "/portfolio/static/js/main.946c25fb.js",
+    "main.css": "/portfolio/static/css/main.0ad3128a.css",
+    "main.js": "/portfolio/static/js/main.3526cc3d.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/ClimateCrisis-Regular-VariableFont_YEAR.ttf": "/portfolio/static/media/ClimateCrisis-Regular-VariableFont_YEAR.72f6288ec1680cdd0ff0.ttf",
+    "static/media/Blackstone.webp": "/portfolio/static/media/Blackstone.8f59d788056bc4d00cd1.webp",
+    "static/media/Zagg.webp": "/portfolio/static/media/Zagg.ce7c70ba124729d351b2.webp",
+    "static/media/Wingo.webp": "/portfolio/static/media/Wingo.76dc7a7965c9731a913b.webp",
     "static/media/LouisGeorgeCafe-Bold.ttf": "/portfolio/static/media/LouisGeorgeCafe-Bold.d231532dff7238f82e0d.ttf",
     "static/media/LouisGeorgeCafe-Light.ttf": "/portfolio/static/media/LouisGeorgeCafe-Light.39945fcd312e86adc356.ttf",
     "static/media/LouisGeorgeCafe.ttf": "/portfolio/static/media/LouisGeorgeCafe.eacd87871e9a39013626.ttf",
     "static/media/vp-logo.webp": "/portfolio/static/media/vp-logo.50ffc1d952245a140b8a.webp",
     "index.html": "/portfolio/index.html",
-    "main.d51cf57e.css.map": "/portfolio/static/css/main.d51cf57e.css.map",
-    "main.946c25fb.js.map": "/portfolio/static/js/main.946c25fb.js.map",
+    "main.0ad3128a.css.map": "/portfolio/static/css/main.0ad3128a.css.map",
+    "main.3526cc3d.js.map": "/portfolio/static/js/main.3526cc3d.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d51cf57e.css",
-    "static/js/main.946c25fb.js"
+    "static/css/main.0ad3128a.css",
+    "static/js/main.3526cc3d.js"
   ]
 }
