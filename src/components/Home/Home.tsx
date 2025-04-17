@@ -16,8 +16,8 @@ const Home = () => {
 
     markers.each(function () {
       const marker = $(this);
-      const width = marker.width() || 0;
-      const height = 2 * (marker.height() || 0);
+      const width = '225px';
+      const height = '200px';
       const svg = document.createElementNS(ns, "svg");
 
       $(svg)
