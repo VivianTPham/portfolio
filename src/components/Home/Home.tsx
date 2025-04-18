@@ -10,8 +10,9 @@ import wingo from '../../assets/Wingo-resize.webp';
 const Home = () => {
   useEffect(() => {
     const markers = $(".marker");
-    const widthGain = 1.5; //2.5
-    const heightGain = 1.5; //2.5
+    const screenWidth = window.innerWidth;
+    const widthGain = screenWidth >= 2000 ? 2.5 : 1.5;
+    const heightGain = screenWidth >= 2000 ? 2.5 : 1.5;
     const ns = "http://www.w3.org/2000/svg";
 
     markers.each(function () {
@@ -25,7 +26,6 @@ const Home = () => {
           width,
           height,
           transform: `scale(${(2 * widthGain * width) / height},${heightGain})`,
-          //transform: "scale(2, 1.5)",
         })
         .attr({
           width,

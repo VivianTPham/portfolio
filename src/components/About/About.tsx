@@ -1,6 +1,8 @@
-import React from 'react'
-import profile from '../../assets/placeholder.jpg';
-import galleryImg from '../../assets/placeholder2.jpg';
+import profile from '../../assets/profilepic.png';
+import galleryImg1 from '../../assets/Pottery1.png';
+import galleryImg2 from '../../assets/Dilbert.png';
+import galleryImg3 from '../../assets/Pottery2.png';
+import galleryImg4 from '../../assets/Sourdough.png';
 
 import './About.css';
 
@@ -25,10 +27,10 @@ const About = () => {
         </div>
       </div>
       <div className="about-gallery">
-        <img src={galleryImg} alt="Gallery image 1" className="galleryImg"/>
-        <img src={galleryImg} alt="Gallery image 1" className="galleryImg"/>
-        <img src={galleryImg} alt="Gallery image 1" className="galleryImg"/>
-        <img src={galleryImg} alt="Gallery image 1" className="galleryImg"/>
+        <img src={galleryImg1} alt="Gallery1" className="galleryImg"/>
+        <img src={galleryImg2} alt="Gallery2" className="galleryImg"/>
+        <img src={galleryImg3} alt="Gallery3" className="galleryImg"/>
+        <img src={galleryImg4} alt="Gallery4" className="galleryImg"/>
       </div>
     </div>
   )
