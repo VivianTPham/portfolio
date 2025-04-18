@@ -1,0 +1,10 @@
+.resume-img {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 980px) {
+    .resume-img {
+        width: 100%;
+    }
+}

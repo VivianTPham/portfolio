@@ -10,22 +10,22 @@ import wingo from '../../assets/Wingo-resize.webp';
 const Home = () => {
   useEffect(() => {
     const markers = $(".marker");
-    const widthGain = 1;
-    const heightGain = 1;
+    const widthGain = 1.5; //2.5
+    const heightGain = 1.5; //2.5
     const ns = "http://www.w3.org/2000/svg";
 
     markers.each(function () {
       const marker = $(this);
-      const width = '225px';
-      const height = '200px';
+      const width = 200;
+      const height = 250;
       const svg = document.createElementNS(ns, "svg");
 
       $(svg)
         .css({
           width,
           height,
-          //transform: `scale(${(2 * widthGain * width) / height},${heightGain})`,
-          transform: "scale(2, 1.5)",
+          transform: `scale(${(2 * widthGain * width) / height},${heightGain})`,
+          //transform: "scale(2, 1.5)",
         })
         .attr({
           width,
@@ -47,7 +47,7 @@ const Home = () => {
 
         setCircle(false);
 
-        marker.on("mouseover", () => {
+        marker.on("mouseenter", () => {
           setCircle(true);
         });
 
@@ -98,7 +98,7 @@ const Home = () => {
   return (
     <>
       <WavyMarquee />
-      <div className="container">
+      <div className="container-home">
         <div className='home-container'>
             <div className='corner'></div>
             <div className='intro'>
