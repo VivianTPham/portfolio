@@ -28,12 +28,12 @@
 :root {
   /*============ Colors ============*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(19, 100%, 50%);
+  --first-color: #e63a26;
   --title-color: hsla(49.41, 26.15%);
-  --text-color: hsl(49.41, 26.15%, 87.25%);
+  --text-color: #e7e4d6;
   --accent-color: #A6BC1B;
   /* --body-color: hsl(258, 60%, 98%); */
-  --body-color: hsla(49.41, 26.15%, 87.25%);
+  --body-color: #e7e4d6;
   --container-color: #ffffff;
 
   /*============ Font and Typography ============*/
@@ -91,7 +91,7 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
   line-height: 1.7;
   color: var(--text-color);
 }
@@ -108,6 +108,14 @@ h2 {
 /*--======================= Reusable CSS Classes =======================*/
 .container {
   margin: 0 auto;
+}
+
+.container-about {
+  margin: 0 auto;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .grid {
@@ -148,6 +156,26 @@ h2 {
   display: flex;
   justify-content: center;
   margin: 3% auto;
+}
+
+.bg-beige-500 {
+  background-color: hsl(49.41, 26.15%, 87.25%);
+}
+
+.bg-green-500 {
+  background-color: var(--accent-color);
+}
+
+.bg-green-500 a {
+  color: var(--body-color);
+}
+
+.bg-green-500 .logo {
+  filter: none;
+}
+
+.bg-red-500 {
+  background-color: var(--first-color);
 }
 
 
