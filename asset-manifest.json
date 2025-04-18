@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b8c942f5.css",
-    "main.js": "/portfolio/static/js/main.2923e0fe.js",
+    "main.css": "/portfolio/static/css/main.01bc7b66.css",
+    "main.js": "/portfolio/static/js/main.464b90e5.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/placeholder.jpg": "/portfolio/static/media/placeholder.14586c68f1b7f91a6a4d.jpg",
+    "static/media/placeholder2.jpg": "/portfolio/static/media/placeholder2.5f241129e41a3768a66e.jpg",
     "static/media/ClimateCrisis-Regular-VariableFont_YEAR.ttf": "/portfolio/static/media/ClimateCrisis-Regular-VariableFont_YEAR.72f6288ec1680cdd0ff0.ttf",
     "static/media/Wingo-resize.webp": "/portfolio/static/media/Wingo-resize.91c01e045b87dbe61206.webp",
     "static/media/ZAGG-Resized.webp": "/portfolio/static/media/ZAGG-Resized.6f8ff776fe9ab7b80be2.webp",
@@ -13,12 +15,12 @@
     "static/media/LouisGeorgeCafe.ttf": "/portfolio/static/media/LouisGeorgeCafe.eacd87871e9a39013626.ttf",
     "static/media/vp-logo.webp": "/portfolio/static/media/vp-logo.50ffc1d952245a140b8a.webp",
     "index.html": "/portfolio/index.html",
-    "main.b8c942f5.css.map": "/portfolio/static/css/main.b8c942f5.css.map",
-    "main.2923e0fe.js.map": "/portfolio/static/js/main.2923e0fe.js.map",
+    "main.01bc7b66.css.map": "/portfolio/static/css/main.01bc7b66.css.map",
+    "main.464b90e5.js.map": "/portfolio/static/js/main.464b90e5.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8c942f5.css",
-    "static/js/main.2923e0fe.js"
+    "static/css/main.01bc7b66.css",
+    "static/js/main.464b90e5.js"
   ]
 }
