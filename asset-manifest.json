@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.329a9270.css",
-    "main.js": "/portfolio/static/js/main.eda1526e.js",
+    "main.js": "/portfolio/static/js/main.ac9b576a.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/placeholder.jpg": "/portfolio/static/media/placeholder.14586c68f1b7f91a6a4d.jpg",
-    "static/media/placeholder2.jpg": "/portfolio/static/media/placeholder2.5f241129e41a3768a66e.jpg",
+    "static/media/Sourdough.png": "/portfolio/static/media/Sourdough.95f97b06aeb05d33791f.png",
+    "static/media/Dilbert.png": "/portfolio/static/media/Dilbert.e69cd5ede05ad75811e4.png",
+    "static/media/Pottery2.png": "/portfolio/static/media/Pottery2.03af3c650e965614deb4.png",
     "static/media/VP_Resume 2025.png": "/portfolio/static/media/VP_Resume 2025.08fc00279ee0764a4c99.png",
+    "static/media/Pottery1.png": "/portfolio/static/media/Pottery1.219c4ce538f695ac192a.png",
+    "static/media/profilepic.png": "/portfolio/static/media/profilepic.6d673b66229740e54d85.png",
     "static/media/ClimateCrisis-Regular-VariableFont_YEAR.ttf": "/portfolio/static/media/ClimateCrisis-Regular-VariableFont_YEAR.72f6288ec1680cdd0ff0.ttf",
     "static/media/Wingo-resize.webp": "/portfolio/static/media/Wingo-resize.91c01e045b87dbe61206.webp",
     "static/media/ZAGG-Resized.webp": "/portfolio/static/media/ZAGG-Resized.6f8ff776fe9ab7b80be2.webp",
@@ -17,11 +20,11 @@
     "static/media/vp-logo.webp": "/portfolio/static/media/vp-logo.50ffc1d952245a140b8a.webp",
     "index.html": "/portfolio/index.html",
     "main.329a9270.css.map": "/portfolio/static/css/main.329a9270.css.map",
-    "main.eda1526e.js.map": "/portfolio/static/js/main.eda1526e.js.map",
+    "main.ac9b576a.js.map": "/portfolio/static/js/main.ac9b576a.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.329a9270.css",
-    "static/js/main.eda1526e.js"
+    "static/js/main.ac9b576a.js"
   ]
 }
