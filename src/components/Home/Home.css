@@ -1,7 +1,7 @@
 .home {
     display: flex;
     justify-content: center;
-    padding: 10%;
+    padding: 13% 10%;
 }
 
 .home-content {
@@ -12,7 +12,9 @@
 }
 
 .doodles {
-    background-image: url("../../assets/background-doodles.png");
+    background-image: url("../../assets/background-doodles.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .intro {

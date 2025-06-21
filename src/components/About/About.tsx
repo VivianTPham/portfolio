@@ -1,5 +1,5 @@
 import profile from '../../assets/profilepic.png';
-import galleryImg1 from '../../assets/Pottery1.png';
+import galleryImg1 from '../../assets/cats.webp';
 import galleryImg2 from '../../assets/Dilbert.png';
 import galleryImg3 from '../../assets/Pottery2.png';
 import galleryImg4 from '../../assets/Sourdough.png';
@@ -17,9 +17,9 @@ const About = () => {
           <p>I’m Vivian! I’m an Industrial Designer currently based in Utah.</p>
           <br />
           <p>In the past 5 years, I’ve had amazing opportunities to work on various product categories and 
-            collaborating others as a professional industrial designer!</p>
+            collaborating with others as a professional industrial designer!</p>
           <br />
-          <p>For my leisure, I enjoy baking sourdough, ceramics, sewing and hanging out with my dog!</p>
+          <p>For my leisure, I enjoy baking sourdough, ceramics, sewing and hanging out with my pets!</p>
           <br />
           <p>For any questions, or interests in working together, contact me at:</p> 
           <br />
