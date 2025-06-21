@@ -1,12 +1,18 @@
-.home-container {
-    background-color: #E0858E;
+.home {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 40%;
-    margin: auto auto 5% auto;
+    padding: 10%;
+}
+
+.home-content {
+    background-color: #E0858E;
+    width: 50%;
     position: relative;
     padding: 2rem;
+}
+
+.doodles {
+    background-image: url("../../assets/background-doodles.png");
 }
 
 .intro {
@@ -20,10 +26,10 @@
     text-align: center;
 }
   
-.home-container::before,
-.home-container::after,
-.home-container .corner::before,
-.home-container .corner::after {
+.home-content::before,
+.home-content::after,
+.home-content .corner::before,
+.home-content .corner::after {
     content: '';
     position: absolute;
     width: 30px;
@@ -32,28 +38,28 @@
     border-radius: 15px;
 }
 
-.home-container::before {
+.home-content::before {
     top: 8px;
     left: 10px;
     transform: rotate(45deg);
     transform-origin: top left;
 }
 
-.home-container::after {
+.home-content::after {
     top: 8px;
     right: 10px;
     transform: rotate(-45deg);
     transform-origin: top right;
 }
 
-.home-container .corner::before {
+.home-content .corner::before {
     bottom: 8px;
     left: 10px;
     transform: rotate(-45deg);
     transform-origin: bottom left;
 }
 
-.home-container .corner::after {
+.home-content .corner::after {
     bottom: 8px;
     right: 10px;
     transform: rotate(45deg);
@@ -123,7 +129,7 @@
 
 
 @media screen and (max-width: 980px) {
-    .home-container {
+    .home-content {
         width: 90%;
     }
 

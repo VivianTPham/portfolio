@@ -99,14 +99,16 @@ const Home = () => {
     <>
       <WavyMarquee />
       <div className="container-home">
-        <div className='home-container'>
-            <div className='corner'></div>
+        <div className='home doodles'>
+            <div className='home-content'>
+          <div className='corner'></div>
             <div className='intro'>
                 <h2 className='intro-content'>
                     I'm Vivian!<br />
                     An Industrial Designer Based in Utah!
                 </h2>
             </div>
+        </div>
         </div>
         <div className="works-section">
           <h3>Work</h3>
