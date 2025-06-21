@@ -6,7 +6,7 @@ type WavyMarqueeProps = {
   speed?: number;
 };
 
-const WavyMarquee = ({ text = "Hello and Welcome!", speed = 5 }: WavyMarqueeProps) => {
+const WavyMarquee = ({ text = "Hello and Welcome!", speed = 0.5 }: WavyMarqueeProps) => {
     const tspansRef = useRef<SVGTSpanElement[]>([]);
     const [tspans, setTspans] = useState<JSX.Element[]>([]);
     const [pathWidth, setPathWidth] = useState<number>(0);
