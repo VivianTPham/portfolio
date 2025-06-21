@@ -6,14 +6,13 @@ type WavyMarqueeProps = {
   speed?: number;
 };
 
-const WavyMarquee = ({ text = "Hello and Welcome!", speed = 1 }: WavyMarqueeProps) => {
+const WavyMarquee = ({ text = "Hello and Welcome!", speed = 5 }: WavyMarqueeProps) => {
     const tspansRef = useRef<SVGTSpanElement[]>([]);
     const [tspans, setTspans] = useState<JSX.Element[]>([]);
     const [pathWidth, setPathWidth] = useState<number>(0);
-    const textWidth = 648; // Estimate for now, can be dynamic if needed
+    const textWidth = 960;
 
     useEffect(() => {
-    // Set enough tspans to cover screen * ~3
     const screenWidth = window.innerWidth;
     const totalTspans = Math.ceil((screenWidth * 3) / textWidth);
     setPathWidth(textWidth * totalTspans);
@@ -34,25 +33,25 @@ const WavyMarquee = ({ text = "Hello and Welcome!", speed = 1 }: WavyMarqueeProp
     }, [text]);
 
     useEffect(() => {
-    let animationFrame: number;
+        let animationFrame: number;
 
-    const animate = () => {
-        tspansRef.current.forEach((tspan) => {
-        const currentX = parseFloat(tspan.getAttribute("x") || "0");
-        const newX = currentX + speed;
+        const animate = () => {
+            tspansRef.current.forEach((tspan) => {
+            const currentX = parseFloat(tspan.getAttribute("x") || "0");
+            const newX = currentX + speed;
 
-        if (newX > pathWidth) {
-            tspan.setAttribute("x", (-textWidth).toString());
-        } else {
-            tspan.setAttribute("x", newX.toString());
-        }
-        });
+            if (newX > pathWidth) {
+                tspan.setAttribute("x", (newX - pathWidth - textWidth).toString());
+            } else {
+                tspan.setAttribute("x", newX.toString());
+            }
+            });
 
-        animationFrame = requestAnimationFrame(animate);
-    };
+            animationFrame = requestAnimationFrame(animate);
+        };
 
-    animate();
-    return () => cancelAnimationFrame(animationFrame);
+        animate();
+        return () => cancelAnimationFrame(animationFrame);
     }, [speed, pathWidth]);
 
     return (
