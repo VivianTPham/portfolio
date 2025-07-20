@@ -10,8 +10,18 @@
 }
 
 @font-face {
+  font-family: louis-george-cafe-lightitalic;
+  src: url(../public/fonts/LouisGeorgeCafe-LightItalic.ttf);
+}
+
+@font-face {
   font-family: louis-george-cafe-italic;
   src: url(../public/fonts/LouisGeorgeCafe-Italic.ttf);
+}
+
+@font-face {
+  font-family: louis-george-cafe-boldItalic;
+  src: url(../public/fonts/LouisGeorgeCafe-BoldItalic.ttf);
 }
 
 @font-face {

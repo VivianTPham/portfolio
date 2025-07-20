@@ -1,0 +1,74 @@
+.blackstone-page-header {
+    background-color: #e09c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 5% 0;
+}
+
+.blackstone-page-header img {
+    width: 30%;
+}
+
+.blackstone-page-header p {
+    font-family: louis-george-cafe-BoldItalic, sans-serif;
+    font-size: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.blackstone-body {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.blackstone-product-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-around
+}
+
+.blackstone-product-item img {
+    width: 40%;
+}
+
+.blackstone-product-item .description {
+    width: 60%;
+}
+
+.blackstone-product-item .description h1 {
+    font-family: louis-george-cafe, sans-serif;
+    color: #e09c34;
+    font-size: 36px;
+}
+
+.blackstone-product-item .description p {
+    font-family: louis-george-cafe-bold, sans-serif;
+    color: #e09c34;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.oven {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.oven h1 {
+    width: 100%;
+    text-align: end;
+}
+
+.oven img {
+    width: 75%;
+}
+
+.oven p {
+    text-align: end;
+}

@@ -5,6 +5,8 @@ import logoGreen from './assets/vp-logo-green.webp';
 import logoCream from './assets/vp-logo-cream.webp';
 import logoOrange from './assets/vp-logo-orange.webp';
 
+import nextArrowGreen from './assets/next-arrow.svg';
+
 import Home from './components/Home/Home';
 import Work from './components/Work/Work';
 import Resume from './components/Resume/Resume';
@@ -19,12 +21,23 @@ function App() {
   const navigate = useNavigate();
 
   const [navColor, setNavColor] = useState('');
+  const [navLinkColor, setNavLinkColor] = useState('#A6BC1B');
+  const [dropdownLinkColor, setDropdownLinkColor] = useState('#A6BC1B');
   const [footerColor, setFooterColor] = useState('');
   const [bodyColor, setBodyColor] = useState('');
   const [logoSrc, setLogoSrc] = useState(logoGreen);
   const [logoFooterSrc, setFooterLogoSrc] = useState(logoGreen);
+  const showFooterLink = ['/blackstone', '/zagg', '/contracting'].includes(location.pathname);
+  const [workLinkText, setWorkLinkText] = useState('');
+  const [workLinkTextColor, setWorkLinkTextColor] = useState('hsl(49.41, 26.15%, 87.25%)');
+  const [workLink, setWorkLink] = useState('/');
+  const [workLinkImg, setWorkLinkImg] = useState(nextArrowGreen);
 
   const [workDropdownOpen, setWorkDropdownOpen] = useState(false);
+
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   useEffect(() => {
     switch (location.pathname) {
@@ -37,27 +50,43 @@ function App() {
         break;
       case '/blackstone':
         setNavColor('bg-orange-500');
+        setNavLinkColor('#e7e4d6');
+        setDropdownLinkColor('#e09c34');
         setFooterColor('bg-beige-500');
         setBodyColor('bg-beige-500');
         setLogoSrc(logoCream);
         setFooterLogoSrc(logoOrange);
+        setWorkLinkText('ZAGG');
+        setWorkLinkTextColor('#e09c34');
+        setWorkLink('#/zagg');
         break;
       case '/zagg':
         setNavColor('bg-beige-500');
+        setNavLinkColor('#A6BC1B');
+        setDropdownLinkColor('#A6BC1B');
         setFooterColor('bg-green-500');
         setBodyColor('bg-green-500');
         setLogoSrc(logoGreen);
         setFooterLogoSrc(logoCream);
+        setWorkLinkText('CONTRACTING');
+        setWorkLinkTextColor('#e7e4d6');
+        setWorkLink('#/contracting');
         break;
       case '/contracting':
         setNavColor('bg-blue-500');
+        setNavLinkColor('#e7e4d6');
+        setDropdownLinkColor('#6eb9bf');
         setFooterColor('bg-beige-500');
         setBodyColor('bg-beige-500');
         setLogoSrc(logoCream);
         setFooterLogoSrc(logoGreen);
+        setWorkLinkText('BLACKSTONE');
+        setWorkLinkTextColor('#A6BC1B');
+        setWorkLink('#/blackstone');
         break;
       default:
         setNavColor('bg-beige-500');
+        setNavLinkColor('#A6BC1B');
         setFooterColor('bg-beige-500');
         setBodyColor('bg-beige-500');
         setLogoSrc(logoGreen);
@@ -104,21 +133,22 @@ function App() {
                 toggleWorkDropdown();
                 handleWorkClick(e);
               }}
+              style={{color: `${navLinkColor}`}}
               className="nav-button"
             >
               Work
             </button>
             <div className={`dropdown ${workDropdownOpen ? 'show' : ''}`}>
-              <Link to="/blackstone" onClick={closeDropdown}>Blackstone</Link>
-              <Link to="/zagg" onClick={closeDropdown}>ZAGG</Link>
-              <Link to="/contracting" onClick={closeDropdown}>Contracting</Link>
+              <Link to="/blackstone" onClick={closeDropdown} style={{color: `${dropdownLinkColor}`}}>Blackstone</Link>
+              <Link to="/zagg" onClick={closeDropdown} style={{color: `${dropdownLinkColor}`}}>ZAGG</Link>
+              <Link to="/contracting" onClick={closeDropdown} style={{color: `${dropdownLinkColor}`}}>Contracting</Link>
             </div>
           </div>
           {/* Other links */}
-          <Link to="/resume" className="px-4 py-2">
+          <Link to="/resume" style={{color: `${navLinkColor}`}} className="px-4 py-2">
             Resume
           </Link>
-          <Link to="/about" className="px-4 py-2">
+          <Link to="/about" style={{color: `${navLinkColor}`}} className="px-4 py-2">
             Me
           </Link>
         </div>
@@ -138,6 +168,7 @@ function App() {
         <Link to="/">
           <img src={logoFooterSrc} alt="Logo" className="logo" />
         </Link>
+        {showFooterLink && <a style={{color: `${workLinkTextColor}`}} className='footer-worklink' href={workLink}>{workLinkText} <img src={workLinkImg}/></a>}
       </footer>
     </div>
   );
