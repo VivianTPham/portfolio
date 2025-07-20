@@ -3,11 +3,16 @@ import './App.css';
 import { Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
 import logoGreen from './assets/vp-logo-green.webp';
 import logoCream from './assets/vp-logo-cream.webp';
+import logoOrange from './assets/vp-logo-orange.webp';
 
 import Home from './components/Home/Home';
 import Work from './components/Work/Work';
 import Resume from './components/Resume/Resume';
 import About from './components/About/About';
+
+import Blackstone from './components/Blackstone/Blackstone';
+import Zagg from './components/Zagg/Zagg';
+import Contracting from './components/Contracting/Contracting';
 
 function App() {
   const location = useLocation();
@@ -30,7 +35,21 @@ function App() {
         setLogoSrc(logoCream);
         setFooterLogoSrc(logoCream);
         break;
-      case '/work':
+      case '/blackstone':
+        setNavColor('bg-orange-500');
+        setFooterColor('bg-beige-500');
+        setBodyColor('bg-beige-500');
+        setLogoSrc(logoCream);
+        setFooterLogoSrc(logoOrange);
+        break;
+      case '/zagg':
+        setNavColor('bg-beige-500');
+        setFooterColor('bg-green-500');
+        setBodyColor('bg-green-500');
+        setLogoSrc(logoGreen);
+        setFooterLogoSrc(logoCream);
+        break;
+      case '/contracting':
         setNavColor('bg-blue-500');
         setFooterColor('bg-beige-500');
         setBodyColor('bg-beige-500');
@@ -90,8 +109,9 @@ function App() {
               Work
             </button>
             <div className={`dropdown ${workDropdownOpen ? 'show' : ''}`}>
-              <Link to="/work" onClick={closeDropdown}>Project A</Link>
-              <Link to="/work" onClick={closeDropdown}>Project B</Link>
+              <Link to="/blackstone" onClick={closeDropdown}>Blackstone</Link>
+              <Link to="/zagg" onClick={closeDropdown}>ZAGG</Link>
+              <Link to="/contracting" onClick={closeDropdown}>Contracting</Link>
             </div>
           </div>
           {/* Other links */}
@@ -109,6 +129,9 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/about" element={<About />} />
+        <Route path="/blackstone" element={<Blackstone />} />
+        <Route path="/zagg" element={<Zagg />} />
+        <Route path="/contracting" element={<Contracting />} />
       </Routes>
 
       <footer className={`footer ${footerColor} px-4 py-4`}>

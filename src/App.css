@@ -97,6 +97,10 @@
   background-color: var(--work-color);
 }
 
+.bg-orange-500 {
+  background-color: #e09c34;
+}
+
 .bg-blue-500 a {
   color: var(--body-color);
 }

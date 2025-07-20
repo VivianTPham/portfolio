@@ -113,15 +113,15 @@ const Home = () => {
         <div id="works-section" className="works-section">
           <h3>Work</h3>
           <div className="works-container">
-            <a href="#/work" className="work-item marker">
+            <a href="#/blackstone" className="work-item marker">
               <img className="work-img" src={blackstone} alt="Electric Pizza Oven" />
               <h2>BLACKSTONE</h2>
             </a>
-            <a href="#/work" className="work-item marker">
+            <a href="#/zagg" className="work-item marker">
               <img className="work-img" src={zagg} alt="Rugged Folio" />
               <h2>ZAGG</h2>
             </a>
-            <a href="#/work" className="work-item marker">
+            <a href="#/contracting" className="work-item marker">
               <img className="work-img" src={wingo} alt="30w Charger" />
               <h2>CONTRACTING</h2>
             </a>
