@@ -1,38 +1,124 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
-  flex-direction: column;
+  gap: 50px;
+  background-color: hsl(49.41, 26.15%, 87.25%);
+  padding: 5%;
+  justify-content: space-between;
   align-items: center;
+}
+
+.nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: louis-george-cafe-bold, sans-serif;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+
+/* Nav button (like "Work") */
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--accent-color);
+  font-family: louis-george-cafe-bold, sans-serif;
+  font-size: 20px;
+}
+
+/* Dropdown base */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 160px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 999;
+}
+
+/* Dropdown visible state */
+.dropdown.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Dropdown links */
+.dropdown a {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+.footer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* margin: 3% auto; */
+  padding: 3% 0;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-beige-500 {
+  background-color: hsl(49.41, 26.15%, 87.25%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.bg-green-500 {
+  background-color: var(--accent-color);
+}
+
+.bg-green-500 a {
+  color: var(--body-color);
+}
+
+.bg-green-500 .logo {
+  filter: none;
+}
+
+.bg-blue-500 {
+  background-color: var(--work-color);
+}
+
+.bg-blue-500 a {
+  color: var(--body-color);
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
   }
-} */
+
+  .dropdown {
+    position: relative;
+    width: 100%;
+  }
+
+  .dropdown a {
+    padding-left: 2rem;
+  }
+}
