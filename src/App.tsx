@@ -43,6 +43,8 @@ function App() {
     switch (location.pathname) {
       case '/about':
         setNavColor('bg-green-500');
+        setNavLinkColor('#e7e4d6');
+        setDropdownLinkColor('#A6BC1B');
         setFooterColor('bg-green-500');
         setBodyColor('bg-green-500');
         setLogoSrc(logoCream);
