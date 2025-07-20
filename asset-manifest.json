@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d9c8edb4.css",
-    "main.js": "/portfolio/static/js/main.5654d5b0.js",
+    "main.css": "/portfolio/static/css/main.4814f2d5.css",
+    "main.js": "/portfolio/static/js/main.e46a6f1b.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Sourdough.png": "/portfolio/static/media/Sourdough.95f97b06aeb05d33791f.png",
     "static/media/cats.webp": "/portfolio/static/media/cats.a7167811f21bc299ae3f.webp",
@@ -21,12 +21,12 @@
     "static/media/vp-logo-green.webp": "/portfolio/static/media/vp-logo-green.34a65cb09dcef2550921.webp",
     "static/media/vp-logo-cream.webp": "/portfolio/static/media/vp-logo-cream.7cca6a8b8eb004fdb7af.webp",
     "index.html": "/portfolio/index.html",
-    "main.d9c8edb4.css.map": "/portfolio/static/css/main.d9c8edb4.css.map",
-    "main.5654d5b0.js.map": "/portfolio/static/js/main.5654d5b0.js.map",
+    "main.4814f2d5.css.map": "/portfolio/static/css/main.4814f2d5.css.map",
+    "main.e46a6f1b.js.map": "/portfolio/static/js/main.e46a6f1b.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9c8edb4.css",
-    "static/js/main.5654d5b0.js"
+    "static/css/main.4814f2d5.css",
+    "static/js/main.e46a6f1b.js"
   ]
 }
