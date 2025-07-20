@@ -110,7 +110,7 @@ const Home = () => {
             </div>
         </div>
         </div>
-        <div className="works-section">
+        <div id="works-section" className="works-section">
           <h3>Work</h3>
           <div className="works-container">
             <a href="#/work" className="work-item marker">

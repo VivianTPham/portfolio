@@ -122,62 +122,6 @@ h2 {
 .logo {
   height: 100px;
   width: auto;
-  /* filter: brightness(0) saturate(100%) invert(80%) sepia(63%) saturate(576%) hue-rotate(12deg) brightness(95%) contrast(93%); */
-}
-
-.nav {
-  display: flex;
-  gap: 50px;
-  background-color: hsl(49.41, 26.15%, 87.25%);
-  padding: 5%;
-  justify-content: space-between;
-}
-
-.nav a {
-  color: var(--accent-color);
-  text-decoration: none;
-  font-family: louis-george-cafe-bold, sans-serif;
-  font-size: 20px;
-}
-
-.nav a:hover {
-  text-decoration: underline;
-}
-
-.nav-links {
-  display: flex;
-  gap: 50px;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  /* margin: 3% auto; */
-  padding: 3% 0;
-}
-
-.bg-beige-500 {
-  background-color: hsl(49.41, 26.15%, 87.25%);
-}
-
-.bg-green-500 {
-  background-color: var(--accent-color);
-}
-
-.bg-green-500 a {
-  color: var(--body-color);
-}
-
-.bg-green-500 .logo {
-  filter: none;
-}
-
-.bg-blue-500 {
-  background-color: var(--work-color);
-}
-
-.bg-blue-500 a {
-  color: var(--body-color);
 }
 
 @media screen and (max-width: 980px) {
