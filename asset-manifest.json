@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4814f2d5.css",
-    "main.js": "/portfolio/static/js/main.e46a6f1b.js",
+    "main.css": "/portfolio/static/css/main.288bd774.css",
+    "main.js": "/portfolio/static/js/main.84724f27.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Sourdough.png": "/portfolio/static/media/Sourdough.95f97b06aeb05d33791f.png",
-    "static/media/cats.webp": "/portfolio/static/media/cats.a7167811f21bc299ae3f.webp",
     "static/media/Dilbert.png": "/portfolio/static/media/Dilbert.e69cd5ede05ad75811e4.png",
     "static/media/Pottery2.png": "/portfolio/static/media/Pottery2.03af3c650e965614deb4.png",
     "static/media/VP_Resume 2025.png": "/portfolio/static/media/VP_Resume 2025.08fc00279ee0764a4c99.png",
     "static/media/profilepic.png": "/portfolio/static/media/profilepic.6d673b66229740e54d85.png",
+    "static/media/cats.webp": "/portfolio/static/media/cats.678ee3cab2ae3ab656f1.webp",
     "static/media/ClimateCrisis-Regular-VariableFont_YEAR.ttf": "/portfolio/static/media/ClimateCrisis-Regular-VariableFont_YEAR.72f6288ec1680cdd0ff0.ttf",
     "static/media/Wingo-resize.webp": "/portfolio/static/media/Wingo-resize.91c01e045b87dbe61206.webp",
     "static/media/ZAGG-Resized.webp": "/portfolio/static/media/ZAGG-Resized.6f8ff776fe9ab7b80be2.webp",
@@ -18,15 +18,16 @@
     "static/media/LouisGeorgeCafe-Light.ttf": "/portfolio/static/media/LouisGeorgeCafe-Light.39945fcd312e86adc356.ttf",
     "static/media/LouisGeorgeCafe.ttf": "/portfolio/static/media/LouisGeorgeCafe.eacd87871e9a39013626.ttf",
     "static/media/background-doodles.webp": "/portfolio/static/media/background-doodles.a556e324e0bc4706f3ce.webp",
+    "static/media/vp-logo-orange.webp": "/portfolio/static/media/vp-logo-orange.27ce87ae226f178a8220.webp",
     "static/media/vp-logo-green.webp": "/portfolio/static/media/vp-logo-green.34a65cb09dcef2550921.webp",
     "static/media/vp-logo-cream.webp": "/portfolio/static/media/vp-logo-cream.7cca6a8b8eb004fdb7af.webp",
     "index.html": "/portfolio/index.html",
-    "main.4814f2d5.css.map": "/portfolio/static/css/main.4814f2d5.css.map",
-    "main.e46a6f1b.js.map": "/portfolio/static/js/main.e46a6f1b.js.map",
+    "main.288bd774.css.map": "/portfolio/static/css/main.288bd774.css.map",
+    "main.84724f27.js.map": "/portfolio/static/js/main.84724f27.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4814f2d5.css",
-    "static/js/main.e46a6f1b.js"
+    "static/css/main.288bd774.css",
+    "static/js/main.84724f27.js"
   ]
 }
