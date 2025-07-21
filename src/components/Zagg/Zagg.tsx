@@ -1,11 +1,11 @@
 import React from 'react'
 import './Zagg.css';
 
-import logo from '../../assets/zagg-logo.webp';
-import brv from '../../assets/BRV-Mini.webp';
+import logo from '../../assets/zagg/zagg-logo.webp';
+import brv from '../../assets/zagg/BRV-Mini.webp';
 import lightBook from '../../assets/ZAGG-Resized.webp';
-import stylus from '../../assets/pro-stylus.webp';
-import keys from '../../assets/pro-keys.webp';
+import stylus from '../../assets/zagg/pro-stylus.webp';
+import keys from '../../assets/zagg/pro-keys.webp';
 
 
 const Zagg = () => {
@@ -13,7 +13,7 @@ const Zagg = () => {
     <>
     <div  className='zagg-page-header'>
         <img alt='ZAGG logo' src={logo}/>
-        <p>Protext what Matters</p>
+        <p>Protect what Matters</p>
       </div>
       <div className='zagg-body'>
         <h1>Working at ZAGG, I was able to touch many product categories that expanded my field, 

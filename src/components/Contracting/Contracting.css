@@ -1,0 +1,103 @@
+.contracting-page-header {
+    background-color: #6eb9bf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 5% 0;
+}
+
+.contracting-page-header h1 {
+    font-family: louis-george-cafe-italic, sans-serif;
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: #e7e4d6;
+}
+
+.contracting-body {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.contracting-body p {
+    font-family: louis-george-cafe-boldItalic, sans-serif;
+    color: #6eb9bf;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 15%;
+}
+ 
+.contracting-products {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.contracting-brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    row-gap: 25px;
+    column-gap: 50px;
+    margin: 15px 20%;
+}
+
+.brand {
+    width: 100%; /* Adjust as needed */
+}
+
+.clckr,
+.wingo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.clckr-logo {
+    width: 30%;
+}
+
+.wingo-logo{
+    width: 25%;
+}
+
+.clckr p,
+.wingo p {
+    color: #e63a26;
+    font-family: louis-george-cafe-italic, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.clckr-products,
+.wingo-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clckr-light,
+.wingo-lanyard {
+    width: 15%;
+}
+
+.wingo-charger {
+    width: 45%;
+}
+
+.wingo-perch {
+    width: 65%;
+}
+
+.wingo-mj {
+    width: 55%;
+}
