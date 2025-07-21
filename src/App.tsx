@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
-import logoGreen from './assets/vp-logo-green.webp';
-import logoCream from './assets/vp-logo-cream.webp';
-import logoOrange from './assets/vp-logo-orange.webp';
+import logoGreen from './assets/logos/vp-logo-green.webp';
+import logoCream from './assets/logos/vp-logo-cream.webp';
+import logoOrange from './assets/logos/vp-logo-orange.webp';
 
 import nextArrowGreen from './assets/next-arrow.svg';
 

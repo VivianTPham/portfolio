@@ -1,0 +1,12 @@
+.wingo-diagram {
+    width: clamp(200px, 35vw, 600px);
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.wingo-diagram:hover {
+    transform: scale(1.05);
+}

@@ -1,14 +1,14 @@
 import React from 'react'
 import './Blackstone.css';
 
-import logo from '../../assets/blackstone-logo.webp';
-import griddle from '../../assets/griddle-caddy.webp';
-import cabinet from '../../assets/cabinet.webp';
+import logo from '../../assets/blackstone/blackstone-logo.webp';
+import griddle from '../../assets/blackstone/griddle-caddy.webp';
+import cabinet from '../../assets/blackstone/cabinet.webp';
 import oven from '../../assets/Blackstone.webp';
 
-import underline1 from '../../assets/underline-1.svg';
-import underline2 from '../../assets/underline-2.svg';
-import underline3 from '../../assets/underline-3.svg';
+import underline1 from '../../assets/blackstone/underline-1.svg';
+import underline2 from '../../assets/blackstone/underline-2.svg';
+import underline3 from '../../assets/blackstone/underline-3.svg';
 
 const Blackstone = () => {
   return (

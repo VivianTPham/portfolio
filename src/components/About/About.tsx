@@ -1,8 +1,8 @@
-import profile from '../../assets/profilepic.png';
-import galleryImg1 from '../../assets/cats.webp';
-import galleryImg2 from '../../assets/Dilbert.png';
-import galleryImg3 from '../../assets/Pottery2.png';
-import galleryImg4 from '../../assets/Sourdough.png';
+import profile from '../../assets/about/profilepic.png';
+import galleryImg1 from '../../assets/about/cats.webp';
+import galleryImg2 from '../../assets/about/Dilbert.png';
+import galleryImg3 from '../../assets/about/Pottery2.png';
+import galleryImg4 from '../../assets/about/Sourdough.png';
 
 import './About.css';
 
