@@ -17,11 +17,13 @@
 
 .about-top h2 {
     font-family: louis-george-cafe-bold, sans-serif;
+    text-align: left;
 }
 
 .about-top p {
     font-family: louis-george-cafe, sans-serif;
     font-size: 20px;
+    text-align: left;
 }
 
 .about-gallery {

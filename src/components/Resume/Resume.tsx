@@ -15,7 +15,7 @@ const Resume = () => {
         logoSrc={logoGreen}
       />
       <div style={{ paddingTop: 0, paddingBottom: 0 }} className="container">
-        <a href="/Vivian_Pham_Resume-2025.pdf" download className="resume-download-link">
+        <a href="assets/Vivian_Pham_Resume-2025.pdf" download className="resume-download-link">
           <img className="resume-img" src={resume2025} alt="resume" />
           <div className="resume-overlay"><p>Click to Download</p></div>
         </a>
