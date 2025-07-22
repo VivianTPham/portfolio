@@ -10,3 +10,16 @@
 .wingo-diagram:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    .image-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-row img {
+        width: 100%;
+        max-width: 400px;
+    }
+}

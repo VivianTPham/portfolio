@@ -80,3 +80,39 @@
 .oven p {
     text-align: end;
 }
+
+@media (max-width: 768px) {
+    .blackstone-body {
+        padding: 15% 5%;
+    }
+
+    .blackstone-body > div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .oven h1,
+    .oven p {
+        text-align: start;
+    }
+
+    .blackstone-product-item .description h1 {
+        font-size: 23px;
+    }
+
+    .blackstone-product-item .description p {
+        line-height: 1.25;
+    }
+
+    .blackstone-product-item {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+
+        .description {
+            width: 100%;
+        }
+    }
+}

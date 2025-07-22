@@ -101,3 +101,32 @@
 .wingo-mj {
     width: 55%;
 }
+
+@media (max-width: 768px) {
+    .contracting-body {
+        padding: 15% 5%;
+        gap: 100px;
+    }
+
+    .contracting-body p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .contracting-products {
+        grid-template-columns: auto;
+        gap: 100px;
+    }
+
+    .clckr-products,
+    .wingo-products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wingo-charger,
+    .wingo-perch,
+    .wingo-mj {
+        width: 80%;
+    }
+}
