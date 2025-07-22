@@ -3,36 +3,47 @@ import galleryImg1 from '../../assets/about/cats.webp';
 import galleryImg2 from '../../assets/about/Dilbert.png';
 import galleryImg3 from '../../assets/about/Pottery2.png';
 import galleryImg4 from '../../assets/about/Sourdough.png';
+import logoCream from '../../assets/logos/vp-logo-cream.webp';
+
+import Nav from '../Nav/Nav';
 
 import './About.css';
 
 const About = () => {
   return (
-    <div className="container">
-      <div className="about-top">
-        <img src={profile} alt="profile img" className="profile"/>
-        <div>
-          <h2>Hello!</h2>
-          <br />
-          <p>I’m Vivian! I’m an Industrial Designer currently based in Utah.</p>
-          <br />
-          <p>In the past 5 years, I’ve had amazing opportunities to work on various product categories and 
-            collaborating with others as a professional industrial designer!</p>
-          <br />
-          <p>For my leisure, I enjoy baking sourdough, ceramics, sewing and hanging out with my pets!</p>
-          <br />
-          <p>For any questions, or interests in working together, contact me at:</p> 
-          <br />
-          <p>vivianpham.id@gmail.com</p>
+    <>
+      <Nav
+        navColor={"bg-green-500"}
+        navLinkColor={"#e7e4d6"}
+        dropdownLinkColor={"#A6BC1B"}
+        logoSrc={logoCream}
+      />
+      <div className="container">
+        <div className="about-top">
+          <img src={profile} alt="profile img" className="profile"/>
+          <div>
+            <h2>Hello!</h2>
+            <br />
+            <p>I’m Vivian! I’m an Industrial Designer currently based in Utah.</p>
+            <br />
+            <p>In the past 5 years, I’ve had amazing opportunities to work on various product categories and 
+              collaborating with others as a professional industrial designer!</p>
+            <br />
+            <p>For my leisure, I enjoy baking sourdough, ceramics, sewing and hanging out with my pets!</p>
+            <br />
+            <p>For any questions, or interests in working together, contact me at:</p> 
+            <br />
+            <p>vivianpham.id@gmail.com</p>
+          </div>
+        </div>
+        <div className="about-gallery">
+          <img src={galleryImg1} alt="Gallery1" className="galleryImg"/>
+          <img src={galleryImg2} alt="Gallery2" className="galleryImg"/>
+          <img src={galleryImg3} alt="Gallery3" className="galleryImg"/>
+          <img src={galleryImg4} alt="Gallery4" className="galleryImg"/>
         </div>
       </div>
-      <div className="about-gallery">
-        <img src={galleryImg1} alt="Gallery1" className="galleryImg"/>
-        <img src={galleryImg2} alt="Gallery2" className="galleryImg"/>
-        <img src={galleryImg3} alt="Gallery3" className="galleryImg"/>
-        <img src={galleryImg4} alt="Gallery4" className="galleryImg"/>
-      </div>
-    </div>
+    </>
   )
 }
 

@@ -1,6 +1,9 @@
 import React from 'react'
 import './Contracting.css';
 
+import Nav from '../Nav/Nav';
+import logoCream from '../../assets/logos/vp-logo-cream.webp';
+
 import clckrBanner from '../../assets/contracting/CLCKR-banner.webp';
 import gimmeBanner from '../../assets/contracting/GIMME-banner.webp';
 import venvtevBanner from '../../assets/contracting/venvtev-banner.webp';
@@ -30,7 +33,13 @@ const wingoImages: string[] = [perch, charger, mjCase];
 const Contracting = () => {
   return (
     <>
-    <div  className='contracting-page-header'>
+      <Nav
+        navColor={"bg-blue-500"}
+        navLinkColor={"#e7e4d6"}
+        dropdownLinkColor={"#6eb9bf"}
+        logoSrc={logoCream}
+      />
+      <div className='contracting-page-header'>
         <h1>CONTRACTING</h1>
         <div className='contracting-brands'>
           <img className='brand' src={gimmeBanner} alt="gimme banner"/>

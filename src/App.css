@@ -119,6 +119,10 @@
   background-color: #e09c34;
 }
 
+.bg-transparent-500 {
+  background-color: transparent;
+}
+
 .bg-blue-500 a {
   color: var(--body-color);
 }

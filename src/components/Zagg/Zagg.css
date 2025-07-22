@@ -1,5 +1,13 @@
-.zagg-page-header {
+.zagg-background {
+    background-image: url('../../assets/zagg/zagg-background.webp'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #e7e4d6;
+}
+
+.zagg-page-header {
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
