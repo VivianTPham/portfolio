@@ -92,7 +92,7 @@ function App() {
         <Link to="/">
           <img src={logoFooterSrc} alt="Logo" className="logo" />
         </Link>
-        {showFooterLink && <a style={{color: `${workLinkTextColor}`}} className='footer-worklink' href={workLink}>{workLinkText} <img src={workLinkImg}/></a>}
+        {showFooterLink && <a style={{color: `${workLinkTextColor}`}} className='footer-worklink' href={workLink}><p>{workLinkText}</p><img src={workLinkImg}/></a>}
       </footer>
     </div>
   );

@@ -82,3 +82,22 @@
     right: -60px;
 }
   
+
+@media (max-width: 768px) {
+    .row1,
+    .row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row1 img,
+    .row2 img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .popup-image {
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+}

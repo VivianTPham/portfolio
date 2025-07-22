@@ -69,3 +69,23 @@
 .zagg-products .brv {
     width: 55%;
 }
+
+@media (max-width: 768px) {
+    .zagg-body {
+        gap: 50px;
+    }
+
+    .zagg-body h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .zagg-body p {
+        font-size: 24px;
+    }
+
+    .zagg-products {
+        grid-template-columns: auto;
+        gap: 100px;
+    }
+}
