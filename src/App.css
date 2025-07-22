@@ -127,8 +127,12 @@
 
 
 @media (max-width: 768px) {
+  .footer {
+    padding-top: 15%;
+  }
   .footer-worklink {
-    bottom: 30px;
-    font-size: 20px;
+    bottom: 25px;
+    font-size: 16px;
+    gap: 0;
   }
 }

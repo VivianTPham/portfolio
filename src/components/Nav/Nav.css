@@ -112,7 +112,7 @@
     min-width: 160px;
     display: none;
     background: #fff;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 0.25rem 0;
     z-index: 1000;
@@ -221,7 +221,6 @@
 .nav__mobile-close {
     padding: 0.5rem;
     line-height: 1;
-    font-weight: bold;
 }
   
 /* Mobile list */
@@ -283,25 +282,11 @@
     display: block;
     width: 100%;
     padding: 0.75rem 1.5rem;
-    font-size: 0.95rem;
+    font-size: 20px;
     text-align: left;
     color: var(--dropdown-link-color, #333);
 }
-  
-.nav__mobile-sublink-scroll {
-    font-style: italic;
-}
-  
-/* Screen Reader Focus Outlines */
-.nav__link:focus,
-.nav__link-button:focus,
-.nav__dropdown-link:focus,
-.nav__mobile-link:focus,
-.nav__mobile-sublink:focus,
-.nav__hamburger:focus {
-    outline: 2px solid currentColor;
-    outline-offset: 2px;
-}
+
   
 /* Overlay (dim background when mobile menu open) */
 .nav__overlay {

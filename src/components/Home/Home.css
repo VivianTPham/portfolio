@@ -71,6 +71,7 @@
 .works-section {
     background-color: var(--accent-color);
     padding: 5%;
+    overflow-x: hidden;
 }
 
 .works-section h3 {
