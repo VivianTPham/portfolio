@@ -22,7 +22,14 @@
 svg {
     user-select: none;
     height: 150px;
-    overflow: visible;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+svg * {
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .Marquee-svg-text {

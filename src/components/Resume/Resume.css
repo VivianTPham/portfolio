@@ -1,10 +1,61 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.resume-download-link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
 .resume-img {
     width: 80%;
     margin: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.resume-download-link:hover .resume-img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.resume-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.resume-overlay p {
+    font-family: louis-george-cafe-Bold, sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.resume-download-link:hover .resume-overlay {
+    opacity: 1;
 }
 
 @media screen and (max-width: 980px) {
     .resume-img {
         width: 100%;
+    }
+
+    .resume-download-link {
+        pointer-events: none;
+    }
+
+    .resume-overlay {
+        display: none;
     }
 }
