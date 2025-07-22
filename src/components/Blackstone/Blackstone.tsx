@@ -1,5 +1,7 @@
+//src/components/Blackstone/Blackstone.tsx
 import React from 'react'
 import './Blackstone.css';
+import logoCream from '../../assets/logos/vp-logo-cream.webp';
 
 import logo from '../../assets/blackstone/blackstone-logo.webp';
 import griddle from '../../assets/blackstone/griddle-caddy.webp';
@@ -10,12 +12,22 @@ import underline1 from '../../assets/blackstone/underline-1.svg';
 import underline2 from '../../assets/blackstone/underline-2.svg';
 import underline3 from '../../assets/blackstone/underline-3.svg';
 
-const Blackstone = () => {
+import Nav from '../Nav/Nav';
+
+const Blackstone = () => { 
   return (
     <>
-      <div  className='blackstone-page-header'>
-        <img alt='blackstone logo' src={logo}/>
-        <p>Cook Anything. Anytime. Anywhere</p>
+      <div className='blackstone-background'>
+        <Nav
+          navColor={"bg-transparent-500"}
+          navLinkColor={"#e7e4d6"}
+          dropdownLinkColor={"#e09c34"}
+          logoSrc={logoCream}
+        />
+        <div  className='blackstone-page-header'>
+          <img alt='blackstone logo' src={logo}/>
+          <p>Cook Anything. Anytime. Anywhere</p>
+        </div>
       </div>
       <div className='blackstone-body'>
         <div className='blackstone-product-item'>

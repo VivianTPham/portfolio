@@ -1,5 +1,13 @@
-.blackstone-page-header {
+.blackstone-background {
+    background-image: url('../../assets/blackstone/blackstone-background.webp'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #e09c34;
+}
+
+.blackstone-page-header {
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
