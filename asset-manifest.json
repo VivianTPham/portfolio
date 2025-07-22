@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.47c677cf.css",
-    "main.js": "/portfolio/static/js/main.f795a491.js",
+    "main.css": "/portfolio/static/css/main.e2d85221.css",
+    "main.js": "/portfolio/static/js/main.8648cdc5.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/cabinet.webp": "/portfolio/static/media/cabinet.9535615152821a0749d6.webp",
     "static/media/wingo-mj-case.webp": "/portfolio/static/media/wingo-mj-case.7a4a25d6e259c1a439a7.webp",
@@ -26,8 +26,10 @@
     "static/media/ClimateCrisis-Regular-VariableFont_YEAR.ttf": "/portfolio/static/media/ClimateCrisis-Regular-VariableFont_YEAR.72f6288ec1680cdd0ff0.ttf",
     "static/media/Wingo-resize.webp": "/portfolio/static/media/Wingo-resize.91c01e045b87dbe61206.webp",
     "static/media/ZAGG-Resized.webp": "/portfolio/static/media/ZAGG-Resized.6f8ff776fe9ab7b80be2.webp",
+    "static/media/blackstone-background.webp": "/portfolio/static/media/blackstone-background.f951f2495a265143dbf5.webp",
     "static/media/Blackstone.webp": "/portfolio/static/media/Blackstone.8f59d788056bc4d00cd1.webp",
     "static/media/wingo-logo.webp": "/portfolio/static/media/wingo-logo.b564903a5302eb726d83.webp",
+    "static/media/zagg-background.webp": "/portfolio/static/media/zagg-background.af4806f55fcc4b9dde28.webp",
     "static/media/LouisGeorgeCafe-BoldItalic.ttf": "/portfolio/static/media/LouisGeorgeCafe-BoldItalic.c14429d37480c50e3dcf.ttf",
     "static/media/LouisGeorgeCafe-Italic.ttf": "/portfolio/static/media/LouisGeorgeCafe-Italic.dc92b4f17f7b2f06a557.ttf",
     "static/media/LouisGeorgeCafe-LightItalic.ttf": "/portfolio/static/media/LouisGeorgeCafe-LightItalic.fc92f0730b51497aeb52.ttf",
@@ -41,6 +43,7 @@
     "static/media/GIMME-banner.webp": "/portfolio/static/media/GIMME-banner.7de8823eb73bb9bab981.webp",
     "static/media/CLCKR-banner.webp": "/portfolio/static/media/CLCKR-banner.e57a3cb692e017643256.webp",
     "static/media/vp-logo-green.webp": "/portfolio/static/media/vp-logo-green.34a65cb09dcef2550921.webp",
+    "static/media/vp-logo-blue.webp": "/portfolio/static/media/vp-logo-blue.f0021a19a9c55e4267f8.webp",
     "static/media/venvtev-banner.webp": "/portfolio/static/media/venvtev-banner.57dd3ca4fdf56891f6a8.webp",
     "static/media/underline-1.svg": "/portfolio/static/media/underline-1.79534f55c3be2541417b6a9ff0aac939.svg",
     "static/media/clckr-logo.webp": "/portfolio/static/media/clckr-logo.13bcc0338dacc7e1ed0f.webp",
@@ -50,12 +53,15 @@
     "static/media/zagg-logo.webp": "/portfolio/static/media/zagg-logo.6e10091e6ccf15fc4c22.webp",
     "static/media/next-arrow.svg": "/portfolio/static/media/next-arrow.b9985463f2ad173fd6cebe0293307364.svg",
     "index.html": "/portfolio/index.html",
-    "main.47c677cf.css.map": "/portfolio/static/css/main.47c677cf.css.map",
-    "main.f795a491.js.map": "/portfolio/static/js/main.f795a491.js.map",
+    "static/media/orange-arrow.svg": "/portfolio/static/media/orange-arrow.f2e48a6fd5023ad3d66d7e8092a7f416.svg",
+    "static/media/cream-arrow.svg": "/portfolio/static/media/cream-arrow.e3a0c1bc7cdc3be074dc0e2cc9f0fcfe.svg",
+    "static/media/blue-arrow.svg": "/portfolio/static/media/blue-arrow.b8a7041fe62741c54f7bf1122f95e345.svg",
+    "main.e2d85221.css.map": "/portfolio/static/css/main.e2d85221.css.map",
+    "main.8648cdc5.js.map": "/portfolio/static/js/main.8648cdc5.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47c677cf.css",
-    "static/js/main.f795a491.js"
+    "static/css/main.e2d85221.css",
+    "static/js/main.8648cdc5.js"
   ]
 }
