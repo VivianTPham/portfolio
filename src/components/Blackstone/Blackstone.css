@@ -82,6 +82,15 @@
 }
 
 @media (max-width: 768px) {
+    .blackstone-page-header img {
+        width: 40%;
+    }
+    
+    .blackstone-page-header p {
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
     .blackstone-body {
         padding: 15% 5%;
     }
