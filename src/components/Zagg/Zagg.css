@@ -49,25 +49,41 @@
 .zagg-products {
     display: grid;
     grid-template-columns: auto auto;
-    margin: auto;
     justify-items: center;
     align-items: center;
+    row-gap: 150px;
 }
 
-.zagg-products .lightBook {
-    width: 100%;
+.zagg-product-item {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
 }
 
-.zagg-products .stylus {
-    width: 60%;
+
+.image-container {
+    height: 400px; /* set a consistent height for all image containers */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.zagg-products .keys {
-    width: 80%;
+.image-container img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
-.zagg-products .brv {
-    width: 55%;
+
+
+.zagg-products p {
+    font-family: louis-george-cafe-lightItalic, sans-serif;
+    font-size: 24px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -79,12 +95,13 @@
         font-size: 12px;
     }
     .zagg-body {
-        gap: 50px;
+        gap: 0px;
     }
 
     .zagg-body h1 {
         margin: 0;
         font-size: 24px;
+        margin-bottom: 50px;
     }
 
     .zagg-body p {
@@ -93,6 +110,14 @@
 
     .zagg-products {
         grid-template-columns: auto;
-        gap: 100px;
+        gap: 0px;
+    }
+
+    .mobile-space-keys {
+        margin-top: 100px;
+    }
+
+    .mobile-space-brv {
+        margin-top: 50px;
     }
 }

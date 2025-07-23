@@ -5,8 +5,8 @@ import Nav from '../Nav/Nav';
 import logoGreen from '../../assets/logos/vp-logo-green.webp';
 
 import logo from '../../assets/zagg/zagg-logo.webp';
-import brv from '../../assets/zagg/BRV-Mini.webp';
-import lightBook from '../../assets/ZAGG-Resized.webp';
+import brv from '../../assets/zagg/brv-mini.webp';
+import lightBook from '../../assets/zagg/light-book.webp';
 import stylus from '../../assets/zagg/pro-stylus.webp';
 import keys from '../../assets/zagg/pro-keys.webp';
 
@@ -34,10 +34,30 @@ const Zagg = () => {
         <p>ZAGG • BRAVEN • iFROGZ • ALTIGO • MOPHIE • GEAR4 • HALO</p>
 
         <div className='zagg-products'>
-          <img className='lightBook' alt='Light book' src={lightBook}/>
-          <img className='stylus' alt='Pro Stylus' src={stylus}/>
-          <img className='keys' alt='Pro Keys' src={keys}/>
-          <img className='brv' alt='BRV Mini' src={brv}/>
+          <div className='zagg-product-item'>
+            <div className='image-container'>
+              <img alt='Light book' src={lightBook}/>
+            </div>
+            <p>ZAGG RUGGED MESSENGER</p>
+          </div>
+          <div className='zagg-product-item'>
+            <div className='image-container'>
+              <img className='stylus' alt='Pro Stylus' src={stylus}/>
+            </div>
+            <p>ZAGG PRO STYLUS</p>
+          </div>
+          <div className='zagg-product-item mobile-space-keys'>
+            <div className='image-container'>
+              <img alt='Pro Keys' src={keys}/>
+            </div>
+            <p>ZAGG PRO KEYS</p>
+          </div>
+          <div className='zagg-product-item mobile-space-brv'>
+            <div style={{paddingBottom: "10px"}} className='image-container'>
+              <img alt='BRV Mini' src={brv}/>
+            </div>
+            <p>BRAVEN BRV - MINI</p>
+          </div>
         </div>
       </div>
     </>

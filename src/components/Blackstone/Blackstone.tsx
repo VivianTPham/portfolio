@@ -47,8 +47,9 @@ const Blackstone = () => {
             <h1>E-Series: Electric Pizza Oven</h1>
             <img src={underline2} alt='product underline 2'/>
             <p>
-              The creation of this product was to bring the pizza mkaing experience inside the home. 
-              It features a clean out dor on.
+            The creation of this product was to bring the pizza making experience inside the 
+            home. It features a clean out door on the top of the product for ease of cleaning. 
+            The design language stayed in a neutral format to fit in many homes.
             </p>
           </div>
           <img alt='blackstone pizza oven' src={oven}/>
@@ -59,9 +60,10 @@ const Blackstone = () => {
             <h1>ProSeries Line</h1>
             <img src={underline3} alt='product underline 3'/>
             <p>
-              I was given this project along with 2 other designers to create a well thought out design perfect for any home.
-              I contrbuted to the side shelfs, handles, and knob design. Ideating around a more comfortable fit while pushing 
-              for a more modern take.
+            I was given this project to help develop a series design that can adapt with any 
+            home. I worked alongside with other designers, engineers, and PMs to bring this 
+            product into fruition. Ideating and collaborating around a more comfortable fit 
+            while pushing for a more modern take.
             </p>
           </div>
         </div>
