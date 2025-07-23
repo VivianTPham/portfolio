@@ -36,4 +36,10 @@ svg * {
     fill: var(--accent-color);
     font-size: 60px;
 }
+
+@media (max-width: 768px) {
+    .Marquee-svg-text {
+        font-size: 45px;
+    }
+}
   
