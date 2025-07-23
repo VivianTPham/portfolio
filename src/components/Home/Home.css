@@ -133,11 +133,15 @@
 
 @media screen and (max-width: 980px) {
     .home-content {
-        width: 90%;
+        width: 100%;
+    }
+
+    .intro {
+        padding: 20px;
     }
 
     .intro-content {
-        font-size: 24px;
+        font-size: 16px;
     }
     
     .works-container {
